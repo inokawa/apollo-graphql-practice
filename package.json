@@ -4,6 +4,7 @@
   "description": "https://www.apollographql.com/docs/tutorial/introduction/",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,5 +16,9 @@
   "bugs": {
     "url": "https://github.com/inokawa/apollo-graphql-practice/issues"
   },
-  "homepage": "https://github.com/inokawa/apollo-graphql-practice#readme"
+  "homepage": "https://github.com/inokawa/apollo-graphql-practice#readme",
+  "dependencies": {
+    "apollo-server": "^2.22.2",
+    "graphql": "^15.5.0"
+  }
 }
